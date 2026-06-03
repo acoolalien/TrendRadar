@@ -76,7 +76,7 @@ jobs:
           git add output/
           if ! git diff --quiet || ! git diff --staged --quiet; then
             git commit -m "auto: update crawl data at $(TZ=Asia/Shanghai date)"
-            git pull --rebase origin master
+            git pull --rebase --autostash origin master
             git push origin master
             echo "Push complete"
           else
