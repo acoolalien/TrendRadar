@@ -134,6 +134,10 @@ rss:
       name: "Hacker News"
       url: "https://hnrss.org/frontpage"
 
+    - id: "huggingface"
+      name: "Hugging Face Blog"
+      url: "https://huggingface.co/blog/feed.xml"
+
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
